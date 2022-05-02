@@ -7,11 +7,11 @@
   <body>
     <form action="/confirm">
       姓名：<input type="text"name="Username" required><br>
+      <input type="text" id="country_code" name="country_code"
+       pattern="[A-Za-z]{3}" title="Three letter country code">
       E-Mail：<input type="text"name="UserMail" required><br>
       <input type="submit" value="提交">
       <input type="reset" value="重新輸入">
-      <input type="text" id="country_code" name="country_code"
-       pattern="[A-Za-z]{3}" title="Three letter country code">
     </form>
       </body>
     </html>
